@@ -24,3 +24,19 @@ This is a simple program to show the importance of process's synchronization & t
 - The other thread retrieves an element in a (any element, depends on the programmer). Then count and output the number of elements of a obtained immediately after taking out, if there are no elements in a, output the screen "Nothing in array a"
 
 ❓**Run the test and find the error when running the above program when it is not synchronized. Perform synchronization with semaphore.**
+
+<br>------------------------------------------<br>
+
+### 3. Given two process that are executed in parallel as follows:
+
+| PROCESS A                                                | PROCESS B                                                               |
+| ---------------------------------------------------------| ----------------------------------------------------------------------- |
+| processA<br>{<br>&emsp;while(1)<br>&emsp;&emsp;x++;<br>&emsp;&emsp;if (x == 20)<br>&emsp;&emsp;&emsp;x = 0;<br>&emsp;&emsp;print(x);<br>} | processB<br>{<br>&emsp;while(1)<br>&emsp;&emsp;x++;<br>&emsp;&emsp;if (x == 20)<br>&emsp;&emsp;&emsp;x = 0;<br>&emsp;&emsp;print(x);<br>} |
+
+❓**Implement the model on C in Linux operating system and comment on the results.**
+
+<br>------------------------------------------<br>
+
+### 4. Synchronize with the mutex to correct the unreasonable errors in the results of the Lesson 3 model.
+
+❓**Synchronize with the mutex to correct the unreasonable errors in the results of the Lesson 3 model.**
