@@ -51,3 +51,8 @@ This is a simple program to show the importance of process's synchronization & t
 &emsp;&emsp;&emsp;&emsp;y = w * y; (e)<br>
 &emsp;&emsp;&emsp;&emsp;z = w * z; (f)<br>
 &emsp;&emsp;&emsp;&emsp;ans = y + z; (g)<br>
+
+❓**Assume the instructions from (a) → (g) are on threads running parallel to each other. Let's program the simulation and synchronization on C in Linux operating system in the following order:**<br>
+&emsp;&emsp;&emsp;(c), (d) is executed only after v is calculated<br>
+&emsp;&emsp;&emsp;(e) is executed only after w and y have been calculated<br>
+&emsp;&emsp;&emsp;(g) is executed only after y and z have been calculated
