@@ -40,3 +40,14 @@ This is a simple program to show the importance of process's synchronization & t
 ### 4. Synchronize with the mutex to correct the unreasonable errors in the results of the Lesson 3 model.
 
 ❓**Synchronize with the mutex to correct the unreasonable errors in the results of the Lesson 3 model.**
+
+## Section 5.5:
+
+### 1. The variable ans is calculated from the variables x1, x2, x3, x4, x5, x6 as follows:
+&emsp;&emsp;&emsp;&emsp;w = x1 * x2; (a)<br>
+&emsp;&emsp;&emsp;&emsp;v = x3 * x4; (b)<br>
+&emsp;&emsp;&emsp;&emsp;y = v * x5; (c)<br>
+&emsp;&emsp;&emsp;&emsp;z = v * x6; (d)<br>
+&emsp;&emsp;&emsp;&emsp;y = w * y; (e)<br>
+&emsp;&emsp;&emsp;&emsp;z = w * z; (f)<br>
+&emsp;&emsp;&emsp;&emsp;ans = y + z; (g)<br>
