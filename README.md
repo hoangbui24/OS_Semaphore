@@ -61,3 +61,5 @@ This is a simple program to show the importance of process's synchronization & t
 &emsp;&emsp;&emsp;(c), (d) is executed only after v is calculated<br>
 &emsp;&emsp;&emsp;(e) is executed only after w and y have been calculated<br>
 &emsp;&emsp;&emsp;(g) is executed only after y and z have been calculated
+
+🔚 **The end**
