@@ -1,3 +1,8 @@
+# **My lab 5 assignments in Operating System subject at university**
+
+Name: Bui Duc Hoang<br>
+Student ID: 20520514
+
 # Semaphore and Mutex
 
 This is a simple program to show the importance of process's synchronization & thread's synchronization
